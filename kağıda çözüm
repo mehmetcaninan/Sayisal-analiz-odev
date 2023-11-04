@@ -1,0 +1,20 @@
+import math
+
+# 𝜋/5 değerini belirle
+x = math.pi / 5
+
+cos_x = math.cos(x)
+
+tek = 1
+  
+iki = 1 - (x**2) / 2
+
+kesme_tek = abs(cos_x - tek)
+kesme_iki = abs(cos_x - iki)
+
+# Sonuçları yazdır
+print(f"Gerçek cos(𝜋/5) değeri: {cos_x}")
+print(f"Taylor serisinin 1 terimle hesaplanmış hali: {tek}")
+print(f"Taylor serisinin 2 terimle hesaplanmış hali: {iki}")
+print(f"1 terimle hesaplanan kesme hatası: {kesme_tek}")
+print(f"2 terimle hesaplanan kesme hatası: {kesme_iki}")
