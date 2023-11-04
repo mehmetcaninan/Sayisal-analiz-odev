@@ -10,4 +10,4 @@ durumdaki kesme hatasını hesaplayınız (Kağıda).
 b) Python kodunu da yazınız (Github).
 
 
-iki çözümde mevcut
+iki çözümde mevcut kağıda çözüm fotoğraf dosyası olarak yüklenmiştir dosya adı "23b56" ile başlıyor!
